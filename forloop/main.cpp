@@ -4,10 +4,8 @@ using namespace std;
 
 int main() {
 
-    int a, b;
-    cin>> a>> b;
-    for(int i=0; a<b; i++){
-       cout<<i;
+    int i;
+    for(i=0; i<=10; i++){
+        cout<<i<<endl;
     }
-    return 0;
 }
