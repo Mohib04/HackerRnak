@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/onlinecompany/repositories/HackerRnak
+    - /bin/cp index.html $DEPLOYPATH
